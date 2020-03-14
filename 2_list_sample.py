@@ -22,9 +22,3 @@ m_benz = bmw[:]
 del(m_benz[1])
 
 print(bmw,"\n",m_benz,"\n")
-#------------------------#
-
-print(max(tesla),"\n")
-
-jaguar = round(2.8868,3)
-print(jaguar)
