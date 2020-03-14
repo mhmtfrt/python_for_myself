@@ -47,7 +47,10 @@ print(type(np_weight))
 np_2d = np.array([height, weight])
 print(np_2d)
 print(np_2d.shape)
+
 print(np_2d[0])
 print(np_2d[:,2])
+print(np_2d[:,1:3])
+
 print(np_2d[0][2])
 print(np_2d[0,2])
