@@ -1,24 +1,30 @@
-fam = [1.73, 1.68, 1.71, 1.89]
-fam2 = [[1, 1.73], [2, 1.68], [3, 1.71], [4, 1.89]]
+tesla = [1.73, 1.68, 1.71, 1.89]
+vw = [[1, 1.73], [2, 1.68], [3, 1.71], [4, 1.89]]
 
-print(fam, "\n" , fam2[1] , "\n" , fam2[2:] , "\n")
+print(tesla, "\n" , vw[1] , "\n" , vw[2:] , "\n")
 
-fam[3] = 1.85
-fam = fam + [1.89]
-print(fam, "\n") 
-del(fam[0])
-print(fam, "\n") 
+tesla[3] = 1.85
+tesla = tesla + [1.89]
+print(tesla, "\n") 
+del(tesla[0])
+print(tesla, "\n") 
+#------------------------#
 
-x = ["a","b","c"]
-y = x
-del(y[1])
-print(x,"\n",y,"\n")
+benz = ["a","b","c"]
+mercedes = benz
+del(mercedes[1])
+print(benz,"\n",mercedes,"\n")
 
+bmw = ["a","b","c"]
 
-x2 = ["a","b","c"]
+#m_benz = list(bmw)
+m_benz = bmw[:]
+del(m_benz[1])
 
-#t = list(x2)
-t = x2[:]
-del(t[1])
+print(bmw,"\n",m_benz,"\n")
+#------------------------#
 
-print(x2,"\n",t,"\n")
+print(max(tesla),"\n")
+
+jaguar = round(2.8868,3)
+print(jaguar)
