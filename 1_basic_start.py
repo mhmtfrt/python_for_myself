@@ -8,9 +8,8 @@ bmi = weight / height **2
 print(bmi)
 print(type(bmi))
 
-h = "dds"
-w = " svdfdsd"
-toplam = h + w
+a = "alfa"
+r = " romeo"
+sum = a + r
 
-print(toplam)
-
+print(sum)
